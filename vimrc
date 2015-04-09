@@ -20,7 +20,8 @@
 "==========================================
 
 "=====
-""The ycmd server SHUT DOWN (restart with :YcmRestartServer)")
+"The ycmd server SHUT DOWN (restart with :YcmRestartServer)")
+"find this bug in pyenv with python3
 "=====
 let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 let g:ycm_server_use_vim_stdout = 1
