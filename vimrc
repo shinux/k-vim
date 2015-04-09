@@ -18,7 +18,14 @@
 "
 "       -> 插件配置和具体设置在vimrc.bundles中
 "==========================================
- 
+
+"=====
+""The ycmd server SHUT DOWN (restart with :YcmRestartServer)")
+"=====
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+let g:ycm_server_use_vim_stdout = 1
+let g:ycm_server_log_level = 'debug'
+
 "==========================================
 " Initial Plugin 加载插件
 "==========================================
