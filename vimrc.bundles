@@ -600,4 +600,7 @@ autocmd FileType python nnoremap <leader>y :0,$!yapf<Cr>
 " Bundle 'amoffat/snake'
 " I do not want to change much for default registers, just default behavior
 " Bundle 'svermeulen/vim-easyclip'
+"
+" ####### rust #######
+Bundle 'rust-lang/rust.vim'
 "------------------------------------------- end of configs --------------------------------------------
