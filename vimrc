@@ -29,7 +29,6 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 "let g:ycm_server_use_vim_stdout = 1
 "let g:ycm_server_log_level = 'debug'
 
-=======
 "==========================================
 " Initial Plugin 加载插件
 "==========================================
