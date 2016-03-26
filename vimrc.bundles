@@ -49,8 +49,6 @@ let g:syntastic_python_pep8_args='--ignore=E501,E225,E124,E712'
 " let g:syntastic_python_checkers=['pyflakes', 'pylint'] " 使用pyflakes,速度比pylint快
 " let g:syntastic_python_checkers=['pylint'] " 使用pyflakes,速度比pylint快
 " let g:syntastic_python_pylint_args='--disable=C0111,R0903,C0301'
-
-
 "let g:syntastic_javascript_checkers = ['jsl', 'jshint']
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_html_checkers=['tidy', 'jshint']
@@ -93,7 +91,7 @@ let g:ycm_use_ultisnips_completer = 1 "提示UltiSnips
 let g:ycm_collect_identifiers_from_comments_and_strings = 1   "注释和字符串中的文字也会被收入补全
 let g:ycm_collect_identifiers_from_tags_files = 1
 
-"let g:ycm_seed_identifiers_with_syntax=1   "语言关键字补全, 不过python关键字都很短，所以，需要的自己打开
+let g:ycm_seed_identifiers_with_syntax=1   "语言关键字补全, 不过python关键字都很短，所以，需要的自己打开
 
 " 跳转到定义处, 分屏打开
 let g:ycm_goto_buffer_command = 'horizontal-split'
@@ -604,4 +602,6 @@ autocmd FileType python nnoremap <leader>y :0,$!yapf<Cr>
 "
 " ####### rust #######
 Bundle 'rust-lang/rust.vim'
+" ####### jade #######
+Bundle 'digitaltoad/vim-pug'
 "------------------------------------------- end of configs --------------------------------------------
