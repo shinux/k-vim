@@ -604,4 +604,8 @@ autocmd FileType python nnoremap <leader>y :0,$!yapf<Cr>
 Bundle 'rust-lang/rust.vim'
 " ####### jade #######
 Bundle 'digitaltoad/vim-pug'
+" ####### racket #####
+Bundle 'wlangstroth/vim-racket'
+" ####### wakatime #####
+Bundle 'wakatime/vim-wakatime'
 "------------------------------------------- end of configs --------------------------------------------
