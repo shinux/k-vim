@@ -605,7 +605,9 @@ Bundle 'rust-lang/rust.vim'
 " ####### jade #######
 Bundle 'digitaltoad/vim-pug'
 " ####### racket #####
-Bundle 'wlangstroth/vim-racket'
+" this Plugin has bug which will leads vim crash on opening files
+" see https://github.com/wlangstroth/vim-racket/issues/25
+"Bundle 'wlangstroth/vim-racket'
 " ####### wakatime #####
 Bundle 'wakatime/vim-wakatime'
 "------------------------------------------- end of configs --------------------------------------------
