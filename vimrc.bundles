@@ -60,6 +60,9 @@ let g:syntastic_always_populate_loc_list = 0
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_loc_list_height = 5
 
+" 对 racket 进行检查（风险未知）
+let g:syntastic_enable_racket_racket_checker = 1
+
 function! ToggleErrors()
     let old_last_winnr = winnr('$')
     lclose
@@ -607,7 +610,8 @@ Bundle 'digitaltoad/vim-pug'
 " ####### racket #####
 " this Plugin has bug which will leads vim crash on opening files
 " see https://github.com/wlangstroth/vim-racket/issues/25
-"Bundle 'wlangstroth/vim-racket'
+" looks good right now
+Bundle 'wlangstroth/vim-racket'
 " ####### wakatime #####
 Bundle 'wakatime/vim-wakatime'
 " ####### vue ######
