@@ -541,7 +541,7 @@ inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
 " Python 文件的一般设置，比如不要 tab 等
 autocmd FileType python set tabstop=4 shiftwidth=4 expandtab ai
-autocmd FileType ruby,javascript,html,css,xml,vue,pug,styl set tabstop=2 shiftwidth=2 softtabstop=2 expandtab ai
+autocmd FileType ruby,javascript,html,css,xml,vue,pug,styl,json set tabstop=2 shiftwidth=2 softtabstop=2 expandtab ai
 autocmd BufRead,BufNew *.md,*.mkd,*.markdown  set filetype=markdown.mkd
 
 
