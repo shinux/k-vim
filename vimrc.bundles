@@ -616,4 +616,6 @@ Bundle 'wlangstroth/vim-racket'
 Bundle 'wakatime/vim-wakatime'
 " ####### vue ######
 Bundle 'posva/vim-vue'
+
+Bundle 'fatih/vim-go'
 "------------------------------------------- end of configs --------------------------------------------
