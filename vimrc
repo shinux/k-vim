@@ -641,3 +641,5 @@ highlight SpellLocal term=underline cterm=underline
 
 " 打开 vim 自动开启目录树
 autocmd VimEnter * NERDTree | wincmd p
+
+
